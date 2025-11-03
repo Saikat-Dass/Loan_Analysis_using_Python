@@ -108,6 +108,8 @@ plt.xlabel('')
 plt.tight_layout()
 plt.show()
 ```
+![monthwise](https://github.com/Saikat-Dass/Loan_Analytics_Dashboard_using_Python/blob/384ddccf8babb282e0616294ff68f14a11b9e638/Project/Project%20Images/Monthwise%20graph.png)
+
 <h2>6. Regional Analysis by State: To identify regions with significant lending activity and assess regional disparities.</h2>
 
 ```python
@@ -131,6 +133,8 @@ plt.xlabel('Loan Amount', fontweight = 'bold')
 plt.tight_layout()
 plt.show()
 ```
+![statewise](https://github.com/Saikat-Dass/Loan_Analytics_Dashboard_using_Python/blob/384ddccf8babb282e0616294ff68f14a11b9e638/Project/Project%20Images/Statewise%20graph.png)
+
 <h2>7. Loan Term Analysis: To allow the client to understand the distribution of loans across various term lengths.</h2>
 
 ```python
@@ -145,6 +149,8 @@ plt.title('\u0330'.join('Total Funded Amount on term basis'), fontsize = 16, fon
 plt.tight_layout()
 plt.show()
 ```
+![term basis](https://github.com/Saikat-Dass/Loan_Analytics_Dashboard_using_Python/blob/384ddccf8babb282e0616294ff68f14a11b9e638/Project/Project%20Images/Term%20basis..png)
+
 <h2>8. Employee Length Analysis: How lending metrics are distributed among borrowers with different employment lengths.</h2>
 
 ```python
@@ -169,6 +175,8 @@ plt.xlabel('Loan Amount', fontweight = 'bold')
 plt.tight_layout()
 plt.show()
 ```
+![length](https://github.com/Saikat-Dass/Loan_Analytics_Dashboard_using_Python/blob/384ddccf8babb282e0616294ff68f14a11b9e638/Project/Project%20Images/Employment%20length.png)
+
 <h2>9. Loan Purpose Breakdown: Will provide a visual breakdown of loan metrics based on the stated purposes of loans.</h2>
 
 ```python
@@ -193,6 +201,7 @@ plt.xlabel('Loan Amount', fontweight = 'bold')
 plt.tight_layout()
 plt.show()
 ```
+![loan purpose](https://github.com/Saikat-Dass/Loan_Analytics_Dashboard_using_Python/blob/384ddccf8babb282e0616294ff68f14a11b9e638/Project/Project%20Images/Loan%20Purpose.png)
 
 <h2>10. Home Ownership Analysis: For a hierarchical view of how home ownership impacts loan applications and disbursements.</h2>
 
@@ -219,6 +228,8 @@ fig.update_layout(title = '\u0330'.join('Total Funded Amount by Home Ownership')
 pio.renderers.default = "svg"
 fig.show()
 ```
+![home ownership](https://github.com/Saikat-Dass/Loan_Analytics_Dashboard_using_Python/blob/384ddccf8babb282e0616294ff68f14a11b9e638/Project/Project%20Images/Home%20Ownership.png)
+
 <h2>Conclusion :</h2>
 
 The Loan Analysis project successfully demonstrates how data-driven methods can enhance decision-making in the financial sector. By analyzing borrower profiles, credit histories, and loan characteristics, the study highlights key factors that influence loan approval and default risk. Through exploratory data analysis and predictive modeling, it was observed that applicants with higher credit scores, stable incomes, and lower debt-to-income ratios have a significantly higher chance of loan approval. Overall, the project proves that Python-based analytics and machine learning techniques can effectively assist financial institutions in minimizing risk and improving lending strategies.
