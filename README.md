@@ -1,4 +1,4 @@
-<h1>Loan Analytics Dasboard using Python</h1>
+<h1>Loan Analysis using Python</h1>
 
 <h2>Overview :</h2>
 
